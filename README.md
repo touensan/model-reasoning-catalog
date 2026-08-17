@@ -43,19 +43,19 @@
 仓库创建并推送完成后执行：
 
 ```powershell
-dsh plugin --profile web add github:<你的GitHub用户名>/dsh-reasoning-autofill
+dsh plugin --profile web add github:liucaimao2026/dsh-reasoning-autofill
 ```
 
 例如：
 
 ```powershell
-dsh plugin --profile web add github:example-user/dsh-reasoning-autofill
+dsh plugin --profile web add github:liucaimao2026/dsh-reasoning-autofill
 ```
 
 如果 `dsh` 没有加入 PATH，可以在 DSH 安装目录执行：
 
 ```powershell
-& "D:\deepseek-harness\node_modules\.bin\dsh.cmd" plugin --profile web add github:<你的GitHub用户名>/dsh-reasoning-autofill
+& "D:\deepseek-harness\node_modules\.bin\dsh.cmd" plugin --profile web add github:liucaimao2026/dsh-reasoning-autofill
 ```
 
 安装成功后，DSH 会自动：
@@ -295,7 +295,7 @@ dsh-reasoning-autofill/
 ## 开发
 
 ```powershell
-git clone https://github.com/<你的GitHub用户名>/dsh-reasoning-autofill.git
+git clone https://github.com/liucaimao2026/dsh-reasoning-autofill.git
 cd dsh-reasoning-autofill
 pnpm install
 node test.mjs
