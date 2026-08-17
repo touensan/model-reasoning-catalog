@@ -1,0 +1,29 @@
+{
+  "name": "dsh-reasoning-autofill",
+  "version": "0.1.0",
+  "description": "自动为未声明推理档位的第三方模型补写 reasoningEfforts，让模型选择器直接显示推理强度设置",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "dependencies": {
+    "@deepseek-ai/dsh-settings": "0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1",
+    "@deepseek-ai/dsh-llm-pi-ai": "0.1.0-rc.6"
+  },
+  "license": "MIT"
+}

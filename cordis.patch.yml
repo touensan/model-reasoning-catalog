@@ -1,0 +1,6 @@
+# dsh-reasoning-autofill bundle patch.
+# 安装后 dsh 会自动把本包追加进 dsh.profile.bundles 并应用这一层：
+# 挂载宿主插件，无需手动编辑 profile 的 cordis.patch.yml。
+- insert:
+    - id: reasoning-autofill
+      name: dsh-reasoning-autofill
